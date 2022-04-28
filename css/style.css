@@ -1,0 +1,116 @@
+body {
+    background-color: #111;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center
+}
+
+#clockContainer {
+	position: relative;
+	margin: auto;
+	height: 510px;
+	width: 510px;
+	background-size: 100%;
+    border: 5px solid #83B692;
+    border-radius:50%;
+}
+
+#hours,
+#minutes,
+#seconds,
+#circle {
+	position: absolute;
+    transform-origin: bottom;
+    border-radius: 10px;
+	opacity: 0.6;
+}
+
+#hours {
+    background-color: #5B3758;
+    width: 16px;
+    height: 160px;
+    top: 90px;
+    left: 242px;
+}
+
+#minutes {
+    background-color: #F9ADA0;
+    width: 10px;
+    height: 210px;
+    top: 40px;
+    left: 245px;
+}
+
+#seconds {
+    background-color: #F9627D;
+    width: 6px;
+    height: 240px;
+    top: 10px;
+    left: 247px;
+    border-radius: 3px;
+}
+
+#circle {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    left: 235px;
+    top: 235px;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+#one {
+    transform:rotate(30deg);
+}
+
+#two {
+    transform:rotate(60deg);
+}
+
+#three {
+    transform:rotate(90deg);
+}
+
+#four {
+    transform:rotate(120deg);
+}
+
+#five {
+    transform:rotate(150deg);
+}
+
+#six {
+    transform:rotate(180deg);
+}
+
+#seven {
+    transform:rotate(210deg);
+}
+
+#eight {
+    transform:rotate(240deg);
+}
+
+#nine {
+    transform:rotate(270deg);
+}
+
+#ten {
+    transform:rotate(300deg);
+}
+
+#eleven {
+    transform:rotate(330deg);
+}
+
+.number {
+    display:flex;
+    justify-content: center;
+	position: absolute;
+    font-size: 64px;
+    color: #F9627D;
+    width: 500px;
+    height: 500px;
+}
